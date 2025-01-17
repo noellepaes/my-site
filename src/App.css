@@ -101,9 +101,10 @@ button.custom-button {
   padding: 1rem 5rem; 
   font-size: 18px; 
   text-transform: uppercase; 
-  margin-top: 20px;
+  margin: 20px auto; /* Centraliza horizontalmente */
   border-radius: 0; 
   cursor: pointer;
+  display: block; /* Garante que o botão ocupe toda a largura disponível */
 }
 
 button.custom-button:hover {
