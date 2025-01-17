@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+html {
+  scroll-behavior: smooth; 
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.description {
+  color: #707070;
+}
+
+.navbar {
+  background-color: #1B2629 !important;
+  padding: 10px 0;
+}
+
+.navbar-brand img {
+  width: 80px;
+  margin-left: 10px;
+}
+
+.nav-link {
+  color: #F7D622 !important;
+  font-weight: bold;
+  margin-right: 15px;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+}
+
+.nav-link:hover {
+  color: white !important; 
+}
+
+.nav-link .icon {
+  margin-right: 5px; 
+  font-size: 18px; 
+}
+
+.carousel-container {
+  margin: 20px;
+  max-width: 80%;
+}
+
+
+.carousel-item {
+  padding: 2rem 5rem;
+}
+
+button.custom-button {
+  background-color: #F7D622; 
+  border: 2px solid black;
+  color: black; 
+  font-weight: bold; 
+  padding: 1rem 5rem; 
+  font-size: 18px; 
+  text-transform: uppercase; 
+  margin-top: 20px;
+  border-radius: 0; 
+  cursor: pointer;
+}
+
+button.custom-button:hover {
+  background-color: black;
+  color: #F7D622;
+}
+
+
+.footer {
+  background-color: #1B2629;
+  color:  white; 
+  padding: 20px 0;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+}
+
+.footer-logo {
+  width: 150px;
+}
+
+.footer-links {
+  display: inline-block;
+}
+
+.footer-link,
+.footer-icon {
+  color: white;
+  margin-right: 15px;
+  text-decoration: none;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.footer-icon {
+  margin-right: 10px;
+  font-size: 18px;
+}
+
+.footer-link:hover,
+.footer-icon:hover {
+  color:  #707070;
+}
+
+.footer-text {
+  margin: 10px 0 0;
+  line-height: 1.5;
+}
