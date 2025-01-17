@@ -29,7 +29,7 @@ const Cards = () => {
   ];
 
   return (
-    <Container className="my-4 text-center">
+    <Container className="my-4 text-left">
       <Row>
         {cardData.map((card, index) => (
           <Col key={index} xs={12} sm={6} md={3} className="mb-4">
