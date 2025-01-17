@@ -11,7 +11,7 @@ body {
   box-sizing: border-box;
 }
 
-/* Responsividade */
+
 @media (max-width: 768px) {
   .navbar {
     padding: 1rem;
@@ -30,15 +30,15 @@ body {
     font-size: 1rem;
   }
   
-  /* Estilizar o botão do menu hamburguer */
+ 
 .navbar-toggler {
-  border: none; /* Remove qualquer borda do botão */
-  outline: none; /* Remove o contorno ao clicar */
+  border: none;
+  outline: none;
 }
 
-/* Definir o ícone do menu hamburguer */
+
 .navbar-toggler-icon {
-  background-color: white; /* Cor de fundo branca para o ícone */
+  background-color: white; 
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='white' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
 }
 
@@ -77,13 +77,20 @@ body {
 }
 
 .carousel-container {
-  margin: 20px;
-  max-width: 80%;
+  margin: 20px auto;
+  max-width: 1200px;
 }
 
+.carousel-container .carousel img {
+  width: 100%;
+  height: auto;
+}
 
-.carousel-item {
-  padding: 2rem 5rem;
+@media (max-width: 768px) {
+  .carousel-container {
+    margin: 0;
+    padding: 0;
+  }
 }
 
 button.custom-button {
