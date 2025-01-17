@@ -11,6 +11,39 @@ body {
   box-sizing: border-box;
 }
 
+/* Responsividade */
+@media (max-width: 768px) {
+  .navbar {
+    padding: 1rem;
+  }
+
+  .navbar .navbar-brand img {
+    max-width: 120px;
+  }
+
+  .navbar .nav-link {
+    font-size: 0.9rem;
+    margin: 0.2rem 0;
+  }
+
+  .navbar .icon {
+    font-size: 1rem;
+  }
+  
+  /* Estilizar o botão do menu hamburguer */
+.navbar-toggler {
+  border: none; /* Remove qualquer borda do botão */
+  outline: none; /* Remove o contorno ao clicar */
+}
+
+/* Definir o ícone do menu hamburguer */
+.navbar-toggler-icon {
+  background-color: white; /* Cor de fundo branca para o ícone */
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='white' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+}
+
 .description {
   color: #707070;
 }
